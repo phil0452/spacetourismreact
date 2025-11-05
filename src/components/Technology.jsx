@@ -41,12 +41,13 @@ function Technology() {
                 </article>               
 
                 <picture>
-                    <source srcset={"/src/" + data[currItem]?.images.portrait} media="(min-width: 720px)" />
-                    <img src={"/src/" + data[currItem]?.images.landscape} alt="launch vehicle" />
+                    <source srcset={data[currItem]?.images.portrait} media="(min-width: 720px)" />
+                    <img src={data[currItem]?.images.landscape} alt="launch vehicle" />
                 </picture>
             </main> 
         </>
     );
 }
+
 
 export default Technology;
