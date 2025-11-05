@@ -14,7 +14,7 @@ function Header() {
         setAriaExpanded((prev) => !prev);
         console.log(isAriaExpanded);
 
-        setMenuImage(isAriaExpanded ? "/src/assets/shared/icon-hamburger.svg" : "/src/assets/shared/icon-close.svg");
+        setMenuImage(isAriaExpanded ? "/assets/shared/icon-hamburger.svg" : "/assets/shared/icon-close.svg");
         setMenuVisible((prev) => !prev);
          console.log(menuVisible);
     };
@@ -69,5 +69,6 @@ function Header() {
         </>
     )
 }
+
 
 export default Header;
