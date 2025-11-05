@@ -1,0 +1,24 @@
+.title {
+    font-size: var(--font-size-18);
+}
+.titleSpan {
+    font-size: var(--font-size-56);
+}
+
+.gridContainer {
+    padding-block: 4rem;
+}
+
+/* for mobile - put more space between the div containers in the grid */
+.gridContainerHome > * {
+  padding-block: 5rem;
+}
+
+@media (min-width: 45rem) {
+    .title {
+        font-size: var(--font-size-28);
+}
+    .titleSpan {
+        font-size: var(--font-size-100);
+}
+}
