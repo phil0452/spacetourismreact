@@ -33,6 +33,7 @@ const backgrounds = {
 
 function App() {   
   const location = useLocation();
+  debugger;
   const basePath = location.pathname.split("/")[1] || "home";
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const [currentBg, setCurrentBg] = useState("");
