@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
     const [isAriaExpanded, setAriaExpanded] = useState(false);
-    const [menuImage, setMenuImage] = useState("/src/assets/shared/icon-hamburger.svg");
+    const [menuImage, setMenuImage] = useState("/assets/shared/icon-hamburger.svg");
     const [menuVisible, setMenuVisible] =  useState(false);
 
     const ToggleMobileMenu = () => {
@@ -72,3 +72,4 @@ function Header() {
 
 
 export default Header;
+
