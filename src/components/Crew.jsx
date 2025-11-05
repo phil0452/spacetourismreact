@@ -38,12 +38,13 @@ function Crew() {
                 
                 </article>
 
-                <img id="douglas-hurley" src={"/src/" + data[currItem]?.images.png} alt={data[currItem]?.name}  />
-                <img id="douglas-hurley" src={"/src/" + data[currItem]?.images.webp} alt={data[currItem]?.name}  />
+                <img id="douglas-hurley" src={data[currItem]?.images.png} alt={data[currItem]?.name}  />
+                <img id="douglas-hurley" src={data[currItem]?.images.webp} alt={data[currItem]?.name}  />
             </main>
         </>
     );
 
 }
+
 
 export default Crew;
