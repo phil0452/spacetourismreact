@@ -42,7 +42,7 @@ function App() {
   useEffect(() => {
     const bgSet = backgrounds[basePath] || backgrounds.home;
     let bgSrc;
-    
+    debugger;
     if (screenWidth >= 1024) { bgSrc =  bgSet.desktop; }
     else if (screenWidth >= 640) { bgSrc = bgSet.tablet; }
     else { bgSrc = bgSet.mobile; }
