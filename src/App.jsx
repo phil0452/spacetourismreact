@@ -46,8 +46,7 @@ function App() {
     if (screenWidth >= 1024) { bgSrc =  bgSet.desktop; }
     else if (screenWidth >= 640) { bgSrc = bgSet.tablet; }
     else { bgSrc = bgSet.mobile; }
-    
-    bgSrc = "/src" +bgSrc
+
     const img = new Image();
     img.src = bgSrc;
     img.onload = () => setCurrentBg(bgSrc);
