@@ -60,7 +60,8 @@ backdrop-filter: blur(1.5rem);
   display: block;
   position: absolute;
   z-index: 2000;
-  right: 1.5rem;
+  /*right: 1.5rem;*/
+    right: 30%;
   top: 2rem;
   background: transparent;
   border: 0;
@@ -139,4 +140,5 @@ backdrop-filter: blur(1.5rem);
     /* margin block is the same as margin-top and margin-bottom together */
     margin-block: 2rem;
   }
+
 }
